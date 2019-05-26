@@ -18,7 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <title>My Portfolio</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="./css/contact.css">
 </head>
 
@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="profilenew.html">Profile <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="profile.html">Profile <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
@@ -45,46 +45,68 @@
         </div>
     </nav>
 
-    <form class="container" id="myform">
-        <div class="form-group">
-            <h2 class="sendmail">Send me an eamil</h2>
-            <label for="name" class="elabel" id="myname">Name</label>
-            <input type="text" class="form-control" id="name">
-            <label for="email" class="elabel" id="myemail">Your Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1>
-        </div>
-        <div class=" form-group">
-            <label for="exampleFormControlSelect1" id="myrsn">Reason</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-                <option>Just to say Hi</option>
-                <option>Software</option>
-                <option>Business</option>
-                <option>Other</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="message" id="mymessage">Message</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="..."></textarea>
-        </div>
 
-        <button type="button" class="btn btn-primary" id="submitbtn">Submit</button>
-    </form>
-
-    <div class="container" id="emailhead">
-        <p><i>akshaykalucha@gmail.com</i></p>
+    <div class="skills">
+        <h1 id="myskill">SKILLSET</h1>
     </div>
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Interest</th>
+                    <th scope="col">Skill</th>
+                    <th scope="col">Activity</th>
+                    <th scope="col">Proficiency</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="prg">Programming</td>
+                    <td>Software Development
+                        Python/Java Automation. Web Development Console applications
+                        data science and intrepretation of data using Programming
+                        APIs, full stack web apps
+                    <td>Designed Scripts from python programming ranging <br> from counting <br> Youtube subs
+                        using
 
+                        APIs to a automatic
+                        eamil replier</td>
+                    <td>Intermediate</td>
+                </tr>
 
+                <tr>
+                    <td>Designing</td>
+                    <td>Proficient with Adobe Photoshop, illustrator and other designind softwares
+                        like
+                        Adobe xd. Also through
+                        with low level video editing using after effects and Premier Pro</td>
+                    <td>Can work and design many templates, helped societies across DU to make posters as a designer
+                    </td>
+                    <td>Intermediate</td>
+                </tr>
 
+                <tr>
+                    <td>Interpersonal Skills</td>
+                    <td>Experienced event coordinator skilled in Event Planning, Event Management,
+                        Team Building, Public Speaking, and Human Resources and public relations.
+                        Strong in doing operatons in a
+                        team with a humble nature
+                    <td>Coordinated events in college ranging from debate to Bplan competition as a
+                        designer, outreach and social media manager.</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <section id="logos">
         <div class="container">
             <h2>STAY CONNECTED </h2>
-            <div class="icons" id="contacticons">
+            <div class="icons">
                 <a href="https://www.twitter.com/lifeofakshy">
                     <i class="fab fa-twitter fa-2x"></i>
                 </a>
-                <a id="element2" href="https://www.linkedin.com/in/akshaykalucha">
+                <a id="element2" href="#!">
                     <i class="fab fa-linkedin fa-2x"></i>
                 </a>
                 <a href="https://www.instagram.com/lifeofakshy">
@@ -107,7 +129,7 @@
     <footer>
         <div class="items">
             <a href="contact.html">CONTACT</a>
-            <a href="profilenew.html">PROFILE</a>
+            <a href="profile.html">PROFILE</a>
             <a href="indexnew.html">HOME</a>
             <a href="about.html">ABOUT</a>
         </div>
